@@ -1,4 +1,4 @@
-describe "Application 'tempus-fugit'" do
+describe "Application 'quotidian'" do
   before do
     @app = UIApplication.sharedApplication
   end
