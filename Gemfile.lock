@@ -1,0 +1,12 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bubble-wrap (1.2.0)
+    webstub (0.3.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bubble-wrap (~> 1.2.0)
+  webstub (~> 0.3.0)
