@@ -3,7 +3,9 @@ describe "Application 'quotidian'" do
     @app = UIApplication.sharedApplication
   end
 
-  it "has one window" do
-    @app.windows.size.should == 1
+  it "starts on Things to do screen" do
+    controller = @app.keyWindow.rootViewController
+    title = controller.navigationItem.title
+    title.should == 'Things to do'
   end
 end
