@@ -8,6 +8,11 @@ class ThingsController < UITableViewController
   end
 
   def addThing
-    nil
+    controller = AddThingController.alloc.initWithNibName(nil, bundle:nil)
+    controller.things_controller = self
+    self.presentViewController(
+      UINavigationController.alloc.initWithRootViewController(controller),
+      animated: true,
+      completion: lambda {})
   end
 end
