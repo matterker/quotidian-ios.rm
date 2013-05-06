@@ -3,7 +3,7 @@ class ThingsController < UITableViewController
     navigationItem.title = 'Things to do'
     addButton = UIBarButtonItem.alloc.initWithBarButtonSystemItem(
       UIBarButtonSystemItemAdd, target:self, action:'addThing')
-    addButton.accessibilityHint = 'add-thing'
+    addButton.accessibilityLabel = 'add-thing'
     navigationItem.rightBarButtonItem = addButton
   end
 
