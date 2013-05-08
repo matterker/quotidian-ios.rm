@@ -11,6 +11,6 @@ describe 'Add Thing To Do' do
 
   it 'closes when tapping cancel' do
     tap('cancel-add')
-    #closed?
+    controller.view.hidden.should == true
   end
 end
