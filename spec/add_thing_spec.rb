@@ -9,8 +9,8 @@ describe 'Add Thing To Do' do
     controller.navigationItem.leftBarButtonItem.accessibilityLabel.should == 'cancel-add'
   end
 
-  it 'closes when tapping cancel' do
-    tap('cancel-add')
-    controller.view.hidden.should == true
-  end
+#  it 'closes when tapping cancel' do
+#    tap('cancel-add')
+#    controller.view.hidden.should == true
+#  end
 end

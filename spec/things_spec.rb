@@ -5,8 +5,8 @@ describe 'Things main page' do
     controller.navigationItem.rightBarButtonItem.accessibilityLabel.should == 'add-thing'
   end
 
-  it 'displays the add thing modal form when clicking add icon' do
-    tap('add-thing')
-    #form displayed?
-  end
+#  it 'displays the add thing modal form when clicking add icon' do
+#    tap('add-thing')
+#    #form displayed?
+#  end
 end
